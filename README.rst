@@ -72,7 +72,7 @@ Building tapinstall (optional)
 The easiest way to build tapinstall is to clone the Microsoft driver samples
 and copy the source for devcon.exe into the tap-windows6 tree. Using PowerShell::
 
-  $ git clone https://github.com/Microsoft/Windows-driver-samples
+  $ git clone https://github.com/OpenVPN/Windows-driver-samples.git
   $ Copy-Item -Recurse Windows-driver-samples/setup/devcon tap-windows6
   $ cd tap-windows6
   $ python.exe buildtap.py -b --ti=devcon
